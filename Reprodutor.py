@@ -87,3 +87,5 @@ bt_return.place (x=310, y=0)
 
 janela.geometry("410x200+450+350")
 janela.mainloop()
+
+#Corrigido
