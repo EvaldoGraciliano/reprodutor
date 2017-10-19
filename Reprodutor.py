@@ -1,7 +1,9 @@
-from pygame  import mixer # Carregando a biblioteca do pygame
+from pygame  import mixer # Carregando a biblioteca do pygame_Patrick
 from tkinter.filedialog import askopenfilename
 from tkinter import *
 
+
+#Evaldo
 musicas = []
 TAM     = len(musicas)
 
@@ -42,7 +44,7 @@ class Reprodutor :
     def continuar ():
         musica_atual = mixer.music.unpause() #Continua do local pausado
 
-#Tentando corrigir bug da troca de música
+#Bug da troca de música corrigido
         
     def proxima ():
         for item in range(len(musicas)):
@@ -58,11 +60,16 @@ class Reprodutor :
             musica_atual = mixer.music.play()
 
 
+	
+	
+	
+#Patrick, Janelas
+
 player = Reprodutor
 
 janela =Tk()
 
-janela.title("Projeto - Reprodutor de músicas") #Titulo
+janela.title("Projeto - Mp3 Player") #Titulo
 
 #Problema corrigido
 bt_escolher = Button(janela, width=20, text="ADICIONAR MUSICAS",  command=player.escolher)
