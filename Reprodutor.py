@@ -1,4 +1,4 @@
-from pygame  import mixer # Carregando a biblioteca do pygame_Patrick
+﻿from pygame  import mixer # Carregando a biblioteca do pygame_Patrick
 from tkinter.filedialog import askopenfilename
 from tkinter import *
 
@@ -76,7 +76,7 @@ bt_escolher = Button(janela, width=20, text="ADICIONAR MUSICAS",  command=player
 bt_proxima  = Button(janela, width=10, text="PROXIMA",            command=player.proxima)
 bt_anterior = Button(janela, width=10, text="ANTERIOR",           command=player.anterior)
 
-bt_escolher.place (x=10,  y=50 )
+bt_escolher.place (x=10,  y=50)
 bt_proxima.place  (x=170, y=50)
 bt_anterior.place (x=270, y=50)
 
@@ -96,3 +96,4 @@ janela.geometry("410x200+450+350")
 janela.mainloop()
 
 #Corrigido
+#Teste de envio
